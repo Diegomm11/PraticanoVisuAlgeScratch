@@ -4,6 +4,8 @@
  Abaixo seguem os algoritmos utilizados em sequência no VisuAlg.
  OBS: O Scratch foi utilizado como ferramenta auxiliar, todo esse conteúdo está de acordo com o VisuAlg.
 
+------------------------------------------------------------
+
 algoritmo "Treinamento"
 
 var
@@ -13,7 +15,7 @@ var
    F, C, C2, F2: Real
    preco, imposto: Real
    empr, taxa, parc, total, valor: Real
-   
+
 inicio
 
       Escreval ("Olá Mundo!")
@@ -67,3 +69,4 @@ inicio
       
       
 fimalgoritmo
+------------------------------------------------------------
