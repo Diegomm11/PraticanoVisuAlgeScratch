@@ -5,26 +5,23 @@
  OBS: O Scratch foi utilizado como ferramenta auxiliar, todo esse conteúdo está de acordo com o VisuAlg.
 
 ------------------------------------------------------------
-
 algoritmo "Treinamento"
 
 var
    nome: caractere
    ano, ano_nasc, idade: Inteiro
    reais, dolares: Real
+   M, A, IMC: Real
    F, C, C2, F2: Real
    preco, imposto: Real
    empr, taxa, parc, total, valor: Real
-
 inicio
-
-      Escreval ("Olá Mundo!")
-      Escreval ("Meu nome é Diego Moura, esse é um treinamento feito no Visualg")
-      Escreval ("para iniciação na programação, trabalhando algoritmos e lógica")
-      Escreval ("da programação. Irei fazer algumas perguntas para esses testes!")
-      Escreval
       Escreval ("Qual o seu nome?")
       Leia (nome)
+      Escreval ("Olá, ", nome)
+      Escreval ("Meu nome é Diego Moura, esse é um treinamento feito no Visualg")
+      Escreval ("para iniciação na programação, trabalhando algoritmos e lógica")
+      Escreval ("da programação.")
       Escreval
       Escreval ("Em que ano nós estamos? ")
       Leia (ano)
@@ -36,6 +33,25 @@ inicio
       Escreval("então você já é maior de idade." )
       Senao (idade>=21) entao
       Escreval("então você ainda é menor de idade.")
+      FimSe
+      Escreval
+      Se (idade % 2 = 0) entao
+      Escreval("O numero ", idade, " e PAR")
+      senao
+      Escreval("O numero ", idade, " é IMPAR")
+      FimSe
+      Escreval
+      Escreval("Vamos calcular seu IMC.")
+      Escreva ("Massa(Kg):" )
+      Leia (M)
+      Escreva("Altura(m):" )
+      Leia (A)
+      IMC<-M/(A^2)
+      Escreval ("IMC:", IMC:5:2)
+      Se (IMC>=18.5) e (IMC < 25) entao
+      Escreval ("Parabens! Você está na faixa ideal" )
+      senao
+      Escreval ("Infelizmente está fora do peso!" )
       FimSe
       Escreval
       Escreva("Quantos Reais você tem no bolso? R$")
@@ -69,4 +85,5 @@ inicio
       
       
 fimalgoritmo
+
 ------------------------------------------------------------
