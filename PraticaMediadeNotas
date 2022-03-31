@@ -1,0 +1,27 @@
+algoritmo "Exercício 2 (Aula 7)"
+
+var
+nota1, nota2, nota3, nota4, media: Real
+
+inicio
+Escreval("---------------")
+Escreval("COLÉGIO EM CASA")
+Escreval("---------------")
+Escreva("Primeira Nota:", nota1)
+Leia(nota1)
+Escreva("Segunda Nota:", nota2)
+Leia(nota2)
+Escreva("Terceira Nota:", nota3)
+Leia(nota3)
+Escreva("Quarta Nota:", nota4)
+Leia(nota4)
+Escreval("---------------")
+media<- (nota1+nota2+nota3+nota4)/4
+Escreval("MEDIA:", media)
+se (media>=7) entao
+Escreval("ALUNO APROVADO")
+senao
+Escreval("ALUNO REPROVADO")
+FimSe
+Escreval("---------------")
+fimalgoritmo
