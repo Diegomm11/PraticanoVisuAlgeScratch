@@ -1,0 +1,55 @@
+algoritmo "Exercício 1 (aula 7)"
+
+var
+             ano_at, nasc, idade_at: inteiro
+inicio
+
+Escreval("------------------------")
+Escreval("DEPARTAMENTO DE TRÂNSITO")
+Escreval("------------------------")
+Escreval
+Escreva("Ano Atual (yyyy): ", ano_at)
+Leia (ano_at)
+Escreva("Ano de Nascimento (yyyy): ", nasc)
+Leia (nasc)
+Escreval
+Escreval("------STATUS------")
+idade_at<- (ano_at-nasc)
+Escreval("IDADE:", idade_at, " ANOS ")
+se (idade_at >= 18) entao
+Escreval ("APTO A TIRAR A CARTEIRA")
+senao
+Escreval("INAPTA A TIRAR A CARTEIRA")
+FimSe
+Escreval("------------------")
+
+fimalgoritmo
+
+
+algoritmo "Exercício 2 (Aula 7)"
+
+var
+nota1, nota2, nota3, nota4, media: Real
+
+inicio
+Escreval("---------------")
+Escreval("COLÉGIO EM CASA")
+Escreval("---------------")
+Escreva("Primeira Nota:", nota1)
+Leia(nota1)
+Escreva("Segunda Nota:", nota2)
+Leia(nota2)
+Escreva("Terceira Nota:", nota3)
+Leia(nota3)
+Escreva("Quarta Nota:", nota4)
+Leia(nota4)
+Escreval("---------------")
+media<- (nota1+nota2+nota3+nota4)/4
+Escreval("MEDIA:", media)
+se (media>=7) entao
+Escreval("ALUNO APROVADO")
+senao
+Escreval("ALUNO REPROVADO")
+FimSe
+Escreval("---------------")
+fimalgoritmo

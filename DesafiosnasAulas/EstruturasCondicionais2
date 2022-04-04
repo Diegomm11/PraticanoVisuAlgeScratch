@@ -1,0 +1,77 @@
+algoritmo "Exercício 1 (Aula 8)"
+
+var
+nota1, nota2, media: Real
+
+
+inicio
+      Escreval("---------------")
+      Escreval("COLÉGIO EM CASA")
+      Escreval("---------------")
+      Escreva("Primeira Nota: ")
+      Leia (nota1)
+      Escreva("Segunda Nota: ")
+      Leia (nota2)
+      media<- (nota1+nota2)/2
+      Escreval("---------------")
+      Escreval("MEDIA:", media)
+      se (media >=9) e (media<=10) entao
+         Escreval ("APROVEITAMENTO: A ")
+      senao
+           se (media >=8) e (media< 9) entao
+              Escreval ("APROVEITAMENTO: B ")
+           senao
+                se (media >=7) e (media<8) entao
+                   Escreval ("APROVEITAMENTO: C ")
+                senao
+                     se (media >=6) e (media< 7) entao
+                        Escreval ("APROVEITAMENTO: D ")
+                     senao
+                          se (media >=5) e (media<=6) entao
+                             Escreval ("APROVEITAMENTO: E ")
+                          senao
+                              Escreval ("APROVEITAMENTO: F ")
+                          Fimse
+                     Fimse
+                Fimse
+           Fimse
+      Fimse
+Escreval("---------------")
+fimalgoritmo
+
+
+algoritmo "Exercício 2 (Aula 8)"
+
+var
+b, m, d: inteiro
+
+inicio
+      Escreval ("---------------------")
+      Escreval ("  BANGU x MADUREIRA  ")
+      Escreval ("---------------------")
+      Escreva ("Quantos gols do BANGU? ")
+      Leia (b)
+      Escreva ("Quantos gols do MADUREIRA? ")
+      Leia (m)
+      se (b > m) entao
+        d <- (b - m)
+      senao
+        d <- (m - b)
+Fimse
+     Escreval ("---------------------")
+     Escreval ("DIFERENÇA: ", d)
+     Escolha d
+             Caso 0
+                  Escreval ("STATUS: EMPATE ")
+             Caso 1, 2, 3
+                  Escreval ("STATUS: PARTIDA NORMAL ")
+             Caso 4, 5, 6, 7
+                  Escreval ("STATUS: GOLEADA ")
+             Outrocaso
+                      Escreval (" STATUS: ALGO INCOMUM. ")
+                      Escreval (" Digitou Corretamente? ")
+Fimescolha
+      Escreval ("---------------------")
+
+
+fimalgoritmo

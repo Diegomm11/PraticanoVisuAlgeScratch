@@ -1,0 +1,63 @@
+algoritmo "Exercício 01 (Aula 9)"
+
+var
+i, f, cont: inteiro
+inicio
+Escreval ("--------------------")
+Escreval ("CONTAGEM INTELIGENTE")
+Escreval ("--------------------")
+Escreva ("INICIO:")
+Leia (i)
+Escreva ("Fim: ")
+Leia (f)
+Escreval ("--------------------")
+Escreval ("   C O N T A N D O   ")
+Escreval ("--------------------")
+    Se (f>i) entao
+       cont <- i
+       Enquanto (cont <= f) faca
+            Escreva (cont, ".. ")
+            cont <- cont + 1
+       Fimenquanto
+    senao
+       cont<-i
+       enquanto (cont>= f) faca
+            escreva (cont, ".. ")
+            cont <- cont - 1
+       fimenquanto
+    Fimse
+fimalgoritmo
+
+
+
+algoritmo "Exercício 02 (Aula 9)"
+
+var
+n, quant: inteiro
+nota, maiornota: real
+nome, melhoraluno: caractere
+
+inicio
+Escreval ("--------------------")
+Escreval (" ESCOLA ONLINE ")
+Escreval ("--------------------")
+Escreva  ("QUANTOS ALUNOS A TURMA TEM? ")
+Leia (n)
+Escreval ("--------------------")
+quant <- 1
+      Enquanto ( quant<= n) faca
+           Escreval ("--------------------")
+           Escreval ("ALUNO ", quant)
+           Escreval ("NOME DO ALUNO: ")
+           Leia (nome)
+           Escreval ("NOTA DE ", nome, ": ")
+           Leia (nota)
+              Se (nota > maiornota) entao
+              maiornota <- nota
+              melhoraluno <- nome
+              Fimse
+              quant<-quant + 1
+      Fimenquanto
+Escreval ("--------------------")
+Escreval ("O MELHOR APROVEITAMENTO FOI DE ",  melhoraluno)
+fimalgoritmo
