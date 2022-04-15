@@ -1,0 +1,21 @@
+algoritmo "NumeroPrimo"
+
+var
+n, c, cd: inteiro
+inicio
+c <- 1
+cd <- 0
+Escreva ("Digite um numero: ")
+Leia (n)
+     Repita
+           se (n % c = 0) entao
+              cd <- cd + 1
+           fimse
+           c <- c + 1
+     Ate (c > n)
+         se (cd > 2) entao
+            Escreval ("O valor ", n, " não é primo.")
+         senao
+            Escreval ("O valor ", n, " é primo.")
+         fimse
+fimalgoritmo
