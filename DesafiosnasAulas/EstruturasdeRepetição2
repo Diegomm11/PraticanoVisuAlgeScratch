@@ -1,4 +1,4 @@
-algoritmo "Contador do Escolha"
+algoritmo EXERCÍCIO 1 "Contador do Escolha"
 
 var
 n, cont: inteiro
@@ -39,7 +39,7 @@ ate (n = 3)
 fimalgoritmo
 
 
-algoritmo "Seletor de Pessoas"
+algoritmo EXERCÍCIO 2 "Seletor de Pessoas"
 
 var
 s, resp: caractere

@@ -1,4 +1,4 @@
-algoritmo "Exercício 1 (Aula 8)"
+algoritmo EXERCÍCIO 1 "Colégio em Casa"
 
 var
 nota1, nota2, media: Real
@@ -40,7 +40,7 @@ Escreval("---------------")
 fimalgoritmo
 
 
-algoritmo "Exercício 2 (Aula 8)"
+algoritmo EXERCÍCIO 2 "Bangu x Madureira"
 
 var
 b, m, d: inteiro

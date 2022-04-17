@@ -1,4 +1,4 @@
-algoritmo "Exercício 1 (aula 7)"
+algoritmo EXERCÍCIO 1"Departamento de Trânsito"
 
 var
              ano_at, nasc, idade_at: inteiro
@@ -26,7 +26,7 @@ Escreval("------------------")
 fimalgoritmo
 
 
-algoritmo "Exercício 2 (Aula 7)"
+algoritmo EXERCÍCIO 2 "Colégio em Casa"
 
 var
 nota1, nota2, nota3, nota4, media: Real

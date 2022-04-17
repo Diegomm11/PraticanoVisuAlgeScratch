@@ -1,4 +1,4 @@
-algoritmo "Exercício 01 (Aula 9)"
+algoritmo EXERCÍCIO 1 "Contagem Inteligente"
 
 var
 i, f, cont: inteiro
@@ -30,7 +30,7 @@ fimalgoritmo
 
 
 
-algoritmo "Exercício 02 (Aula 9)"
+algoritmo EXERCÍCIO 2 "Escola Online"
 
 var
 n, quant: inteiro
