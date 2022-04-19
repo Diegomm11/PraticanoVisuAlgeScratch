@@ -1,0 +1,28 @@
+algoritmo "Nome e Código"
+
+var
+n: caractere
+c: inteiro
+
+inicio
+
+Escreva ("Qual seu nome? ")
+Leia (n)
+Escreval ("Total de letras do seu nome: ", compr(n))
+Escreval ("Seu nome em letras maiusculas é ", maiusc (n))
+Escreval ("Seu nome em letras minusculas é ", minusc (n))
+Escreval ("Qual a primeira e segunda letras do seu nome? ", copia (n, 1, 2))
+Escreval ("Qual a segunda, terceira e quarta letras do seu nome? ", copia (n, 2, 3))
+Escreval ("A terceira letra do seu nome é ", copia (minusc(n), 3, 1))
+Escreval ("A ultima letra do seu nome é ", copia (maiusc(n), compr (n), 1))
+Escreval ("Seu nome tem a letra o na posição ", pos ("o", minusc(n)))
+Escreval ("O codigo da letra o é ", asc ("o"))
+Escreval ("A letra do seu código é ", carac (111))
+
+Escreval ("Seu nome de trás para frente fica ")
+Para c <- compr (n) ate 1 passo -1 faca
+     Escreva (Copia (maiusc(n), c, 1))
+Fimpara
+
+
+fimalgoritmo
