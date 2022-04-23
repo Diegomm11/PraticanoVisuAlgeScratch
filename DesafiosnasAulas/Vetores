@@ -1,0 +1,32 @@
+algoritmo EXERCÍCIO 1"Torneio de Futebol"
+
+var
+
+time: vetor[1..4] de caractere
+d, c: inteiro
+
+inicio
+
+Escreval ("-----------------------")
+Escreval (" Campeonato Mundial")
+Escreval (" ----------------------")
+
+para c <- 1 ate 4 faca
+     Escreval (c,"º Time")
+     Leia (time[c])
+fimpara
+
+Limpatela
+Escreval ("-----------")
+Escreval (" TABELA ")
+Escreval ("-----------")
+
+para d<- 1 ate 4 faca
+     para c<- 1 ate 4 faca
+          se (d<>c) entao
+             Escreval (time[d]:10, " [] x [] ", time[c])
+          fimse
+     fimpara
+fimpara
+
+fimalgoritmo
